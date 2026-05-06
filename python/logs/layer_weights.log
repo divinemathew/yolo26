@@ -1,0 +1,26 @@
+Idx   | Type            | Weight Shape         | Bias Shape     
+----------------------------------------------------------------------
+0     | Conv            | [16, 3, 3, 3]        | None           
+1     | Conv            | [32, 16, 3, 3]       | None           
+2     | C3k2            | Complex Block        | See Sub-layers 
+3     | Conv            | [64, 64, 3, 3]       | None           
+4     | C3k2            | Complex Block        | See Sub-layers 
+5     | Conv            | [128, 128, 3, 3]     | None           
+6     | C3k2            | Complex Block        | See Sub-layers 
+7     | Conv            | [256, 128, 3, 3]     | None           
+8     | C3k2            | Complex Block        | See Sub-layers 
+9     | SPPF            | Complex Block        | See Sub-layers 
+10    | C2PSA           | Complex Block        | See Sub-layers 
+11    | Upsample        | None                 | None           
+12    | Concat          | None                 | None           
+13    | C3k2            | Complex Block        | See Sub-layers 
+14    | Upsample        | None                 | None           
+15    | Concat          | None                 | None           
+16    | C3k2            | Complex Block        | See Sub-layers 
+17    | Conv            | [64, 64, 3, 3]       | None           
+18    | Concat          | None                 | None           
+19    | C3k2            | Complex Block        | See Sub-layers 
+20    | Conv            | [128, 128, 3, 3]     | None           
+21    | Concat          | None                 | None           
+22    | C3k2            | Complex Block        | See Sub-layers 
+23    | Detect          | Complex Block        | See Sub-layers 

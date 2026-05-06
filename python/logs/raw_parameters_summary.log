@@ -1,0 +1,711 @@
+RAW WEIGHT AND BIAS SUMMARY for ../models/yolo26n.pt
+Parameter Name                                     | Shape                | Mean       | Std       
+----------------------------------------------------------------------------------------------------
+model.0.conv.weight                                | [16, 3, 3, 3]        | -0.003946  | 0.285909  
+model.0.bn.weight                                  | [16]                 | 3.426941   | 1.514401  
+model.0.bn.bias                                    | [16]                 | 0.268921   | 5.194921  
+model.0.bn.running_mean                            | [16]                 | -0.045812  | 0.164326  
+model.0.bn.running_var                             | [16]                 | 0.038017   | 0.015749  
+model.0.bn.num_batches_tracked                     | []                   | 0.000000   | nan       
+model.1.conv.weight                                | [32, 16, 3, 3]       | 0.002040   | 0.106244  
+model.1.bn.weight                                  | [32]                 | 3.899323   | 1.241524  
+model.1.bn.bias                                    | [32]                 | 1.724625   | 2.074048  
+model.1.bn.running_mean                            | [32]                 | -0.157099  | 4.149202  
+model.1.bn.running_var                             | [32]                 | 5.205963   | 2.570013  
+model.1.bn.num_batches_tracked                     | []                   | 0.000000   | nan       
+model.2.cv1.conv.weight                            | [32, 32, 1, 1]       | -0.001534  | 0.153464  
+model.2.cv1.bn.weight                              | [32]                 | 2.888519   | 1.031818  
+model.2.cv1.bn.bias                                | [32]                 | 1.228866   | 1.511001  
+model.2.cv1.bn.running_mean                        | [32]                 | -0.062925  | 2.649268  
+model.2.cv1.bn.running_var                         | [32]                 | 5.814697   | 3.638736  
+model.2.cv1.bn.num_batches_tracked                 | []                   | 0.000000   | nan       
+model.2.cv2.conv.weight                            | [64, 48, 1, 1]       | -0.013229  | 0.122563  
+model.2.cv2.bn.weight                              | [64]                 | 2.198929   | 1.100423  
+model.2.cv2.bn.bias                                | [64]                 | 0.093160   | 1.474679  
+model.2.cv2.bn.running_mean                        | [64]                 | -1.144054  | 1.256015  
+model.2.cv2.bn.running_var                         | [64]                 | 2.748077   | 1.221653  
+model.2.cv2.bn.num_batches_tracked                 | []                   | 0.000000   | nan       
+model.2.m.0.cv1.conv.weight                        | [8, 16, 3, 3]        | -0.006667  | 0.078153  
+model.2.m.0.cv1.bn.weight                          | [8]                  | 0.335144   | 0.156141  
+model.2.m.0.cv1.bn.bias                            | [8]                  | 0.100227   | 0.417998  
+model.2.m.0.cv1.bn.running_mean                    | [8]                  | -1.382904  | 1.551701  
+model.2.m.0.cv1.bn.running_var                     | [8]                  | 4.663574   | 2.869896  
+model.2.m.0.cv1.bn.num_batches_tracked             | []                   | 0.000000   | nan       
+model.2.m.0.cv2.conv.weight                        | [16, 8, 3, 3]        | 0.000129   | 0.114379  
+model.2.m.0.cv2.bn.weight                          | [16]                 | 3.270508   | 0.434916  
+model.2.m.0.cv2.bn.bias                            | [16]                 | 0.618767   | 1.959495  
+model.2.m.0.cv2.bn.running_mean                    | [16]                 | 0.034482   | 0.079520  
+model.2.m.0.cv2.bn.running_var                     | [16]                 | 0.012424   | 0.002445  
+model.2.m.0.cv2.bn.num_batches_tracked             | []                   | 0.000000   | nan       
+model.3.conv.weight                                | [64, 64, 3, 3]       | -0.001714  | 0.042906  
+model.3.bn.weight                                  | [64]                 | 0.766071   | 0.200591  
+model.3.bn.bias                                    | [64]                 | 0.491017   | 1.017588  
+model.3.bn.running_mean                            | [64]                 | -0.821605  | 1.387790  
+model.3.bn.running_var                             | [64]                 | 2.520348   | 1.831032  
+model.3.bn.num_batches_tracked                     | []                   | 0.000000   | nan       
+model.4.cv1.conv.weight                            | [64, 64, 1, 1]       | -0.006333  | 0.101038  
+model.4.cv1.bn.weight                              | [64]                 | 0.692780   | 0.282859  
+model.4.cv1.bn.bias                                | [64]                 | 0.536412   | 0.752113  
+model.4.cv1.bn.running_mean                        | [64]                 | -0.246650  | 0.918507  
+model.4.cv1.bn.running_var                         | [64]                 | 0.199386   | 0.091368  
+model.4.cv1.bn.num_batches_tracked                 | []                   | 0.000000   | nan       
+model.4.cv2.conv.weight                            | [128, 96, 1, 1]      | -0.006800  | 0.082308  
+model.4.cv2.bn.weight                              | [128]                | 0.769058   | 0.156435  
+model.4.cv2.bn.bias                                | [128]                | -0.761921  | 0.579673  
+model.4.cv2.bn.running_mean                        | [128]                | -0.632361  | 0.776611  
+model.4.cv2.bn.running_var                         | [128]                | 0.156084   | 0.056502  
+model.4.cv2.bn.num_batches_tracked                 | []                   | 0.000000   | nan       
+model.4.m.0.cv1.conv.weight                        | [16, 32, 3, 3]       | -0.003781  | 0.060729  
+model.4.m.0.cv1.bn.weight                          | [16]                 | 0.628052   | 0.179367  
+model.4.m.0.cv1.bn.bias                            | [16]                 | 0.809326   | 0.808632  
+model.4.m.0.cv1.bn.running_mean                    | [16]                 | -0.496475  | 0.651170  
+model.4.m.0.cv1.bn.running_var                     | [16]                 | 0.224785   | 0.082865  
+model.4.m.0.cv1.bn.num_batches_tracked             | []                   | 0.000000   | nan       
+model.4.m.0.cv2.conv.weight                        | [32, 16, 3, 3]       | 0.001333   | 0.073591  
+model.4.m.0.cv2.bn.weight                          | [32]                 | 0.812408   | 0.197067  
+model.4.m.0.cv2.bn.bias                            | [32]                 | 1.052971   | 0.845040  
+model.4.m.0.cv2.bn.running_mean                    | [32]                 | 0.296556   | 0.840347  
+model.4.m.0.cv2.bn.running_var                     | [32]                 | 0.197641   | 0.073129  
+model.4.m.0.cv2.bn.num_batches_tracked             | []                   | 0.000000   | nan       
+model.5.conv.weight                                | [128, 128, 3, 3]     | -0.000571  | 0.028429  
+model.5.bn.weight                                  | [128]                | 0.708031   | 0.170825  
+model.5.bn.bias                                    | [128]                | 0.148005   | 0.990659  
+model.5.bn.running_mean                            | [128]                | 0.062894   | 0.342354  
+model.5.bn.running_var                             | [128]                | 0.165645   | 0.107696  
+model.5.bn.num_batches_tracked                     | []                   | 0.000000   | nan       
+model.6.cv1.conv.weight                            | [128, 128, 1, 1]     | -0.004862  | 0.065154  
+model.6.cv1.bn.weight                              | [128]                | 0.761087   | 0.232465  
+model.6.cv1.bn.bias                                | [128]                | 0.081289   | 0.699182  
+model.6.cv1.bn.running_mean                        | [128]                | -0.211848  | 0.702132  
+model.6.cv1.bn.running_var                         | [128]                | 0.115767   | 0.054361  
+model.6.cv1.bn.num_batches_tracked                 | []                   | 0.000000   | nan       
+model.6.cv2.conv.weight                            | [128, 192, 1, 1]     | -0.005150  | 0.059127  
+model.6.cv2.bn.weight                              | [128]                | 0.733999   | 0.194884  
+model.6.cv2.bn.bias                                | [128]                | -0.488039  | 0.733858  
+model.6.cv2.bn.running_mean                        | [128]                | -0.412953  | 0.444012  
+model.6.cv2.bn.running_var                         | [128]                | 0.202975   | 0.075056  
+model.6.cv2.bn.num_batches_tracked                 | []                   | 0.000000   | nan       
+model.6.m.0.cv1.conv.weight                        | [32, 64, 1, 1]       | -0.011118  | 0.083608  
+model.6.m.0.cv1.bn.weight                          | [32]                 | 0.455944   | 0.125630  
+model.6.m.0.cv1.bn.bias                            | [32]                 | 0.272762   | 0.479873  
+model.6.m.0.cv1.bn.running_mean                    | [32]                 | -0.150539  | 0.367101  
+model.6.m.0.cv1.bn.running_var                     | [32]                 | 0.111264   | 0.042711  
+model.6.m.0.cv1.bn.num_batches_tracked             | []                   | 0.000000   | nan       
+model.6.m.0.cv2.conv.weight                        | [32, 64, 1, 1]       | -0.005886  | 0.074400  
+model.6.m.0.cv2.bn.weight                          | [32]                 | 1.132767   | 0.382742  
+model.6.m.0.cv2.bn.bias                            | [32]                 | -0.124729  | 0.697675  
+model.6.m.0.cv2.bn.running_mean                    | [32]                 | -0.091562  | 0.254376  
+model.6.m.0.cv2.bn.running_var                     | [32]                 | 0.085793   | 0.026912  
+model.6.m.0.cv2.bn.num_batches_tracked             | []                   | 0.000000   | nan       
+model.6.m.0.cv3.conv.weight                        | [64, 64, 1, 1]       | -0.005770  | 0.080636  
+model.6.m.0.cv3.bn.weight                          | [64]                 | 0.973804   | 0.268159  
+model.6.m.0.cv3.bn.bias                            | [64]                 | -0.203197  | 0.856389  
+model.6.m.0.cv3.bn.running_mean                    | [64]                 | -0.271065  | 1.146305  
+model.6.m.0.cv3.bn.running_var                     | [64]                 | 0.350567   | 0.106653  
+model.6.m.0.cv3.bn.num_batches_tracked             | []                   | 0.000000   | nan       
+model.6.m.0.m.0.cv1.conv.weight                    | [32, 32, 3, 3]       | -0.003483  | 0.046249  
+model.6.m.0.m.0.cv1.bn.weight                      | [32]                 | 0.914566   | 0.110365  
+model.6.m.0.m.0.cv1.bn.bias                        | [32]                 | -0.627164  | 0.493199  
+model.6.m.0.m.0.cv1.bn.running_mean                | [32]                 | -0.238346  | 0.219020  
+model.6.m.0.m.0.cv1.bn.running_var                 | [32]                 | 0.091239   | 0.025271  
+model.6.m.0.m.0.cv1.bn.num_batches_tracked         | []                   | 0.000000   | nan       
+model.6.m.0.m.0.cv2.conv.weight                    | [32, 32, 3, 3]       | -0.001980  | 0.043634  
+model.6.m.0.m.0.cv2.bn.weight                      | [32]                 | 0.660095   | 0.185548  
+model.6.m.0.m.0.cv2.bn.bias                        | [32]                 | -0.002443  | 0.617911  
+model.6.m.0.m.0.cv2.bn.running_mean                | [32]                 | 0.151584   | 0.153018  
+model.6.m.0.m.0.cv2.bn.running_var                 | [32]                 | 0.122776   | 0.033374  
+model.6.m.0.m.0.cv2.bn.num_batches_tracked         | []                   | 0.000000   | nan       
+model.6.m.0.m.1.cv1.conv.weight                    | [32, 32, 3, 3]       | -0.002999  | 0.046858  
+model.6.m.0.m.1.cv1.bn.weight                      | [32]                 | 0.754082   | 0.173853  
+model.6.m.0.m.1.cv1.bn.bias                        | [32]                 | -0.350105  | 0.723105  
+model.6.m.0.m.1.cv1.bn.running_mean                | [32]                 | -0.369374  | 0.415013  
+model.6.m.0.m.1.cv1.bn.running_var                 | [32]                 | 0.170568   | 0.052323  
+model.6.m.0.m.1.cv1.bn.num_batches_tracked         | []                   | 0.000000   | nan       
+model.6.m.0.m.1.cv2.conv.weight                    | [32, 32, 3, 3]       | -0.001524  | 0.047099  
+model.6.m.0.m.1.cv2.bn.weight                      | [32]                 | 1.008469   | 0.224290  
+model.6.m.0.m.1.cv2.bn.bias                        | [32]                 | 1.377670   | 1.188673  
+model.6.m.0.m.1.cv2.bn.running_mean                | [32]                 | 0.139671   | 0.291334  
+model.6.m.0.m.1.cv2.bn.running_var                 | [32]                 | 0.121284   | 0.038678  
+model.6.m.0.m.1.cv2.bn.num_batches_tracked         | []                   | 0.000000   | nan       
+model.7.conv.weight                                | [256, 128, 3, 3]     | -0.000664  | 0.023312  
+model.7.bn.weight                                  | [256]                | 0.807812   | 0.214702  
+model.7.bn.bias                                    | [256]                | -0.285395  | 0.825762  
+model.7.bn.running_mean                            | [256]                | 0.035689   | 0.314347  
+model.7.bn.running_var                             | [256]                | 0.155733   | 0.080050  
+model.7.bn.num_batches_tracked                     | []                   | 0.000000   | nan       
+model.8.cv1.conv.weight                            | [256, 256, 1, 1]     | -0.003829  | 0.042036  
+model.8.cv1.bn.weight                              | [256]                | 0.948030   | 0.242118  
+model.8.cv1.bn.bias                                | [256]                | -0.463872  | 0.792847  
+model.8.cv1.bn.running_mean                        | [256]                | -0.093149  | 0.385241  
+model.8.cv1.bn.running_var                         | [256]                | 0.097177   | 0.032127  
+model.8.cv1.bn.num_batches_tracked                 | []                   | 0.000000   | nan       
+model.8.cv2.conv.weight                            | [256, 384, 1, 1]     | -0.003172  | 0.038888  
+model.8.cv2.bn.weight                              | [256]                | 0.917438   | 0.256629  
+model.8.cv2.bn.bias                                | [256]                | -0.389265  | 0.970726  
+model.8.cv2.bn.running_mean                        | [256]                | -0.064137  | 0.300785  
+model.8.cv2.bn.running_var                         | [256]                | 0.218193   | 0.095426  
+model.8.cv2.bn.num_batches_tracked                 | []                   | 0.000000   | nan       
+model.8.m.0.cv1.conv.weight                        | [64, 128, 1, 1]      | -0.007713  | 0.056970  
+model.8.m.0.cv1.bn.weight                          | [64]                 | 0.555969   | 0.198394  
+model.8.m.0.cv1.bn.bias                            | [64]                 | -0.226924  | 0.588840  
+model.8.m.0.cv1.bn.running_mean                    | [64]                 | 0.013152   | 0.210968  
+model.8.m.0.cv1.bn.running_var                     | [64]                 | 0.100467   | 0.043562  
+model.8.m.0.cv1.bn.num_batches_tracked             | []                   | 0.000000   | nan       
+model.8.m.0.cv2.conv.weight                        | [64, 128, 1, 1]      | -0.004366  | 0.048616  
+model.8.m.0.cv2.bn.weight                          | [64]                 | 1.365875   | 0.214175  
+model.8.m.0.cv2.bn.bias                            | [64]                 | -0.276659  | 0.328654  
+model.8.m.0.cv2.bn.running_mean                    | [64]                 | -0.072622  | 0.179313  
+model.8.m.0.cv2.bn.running_var                     | [64]                 | 0.068350   | 0.017511  
+model.8.m.0.cv2.bn.num_batches_tracked             | []                   | 0.000000   | nan       
+model.8.m.0.cv3.conv.weight                        | [128, 128, 1, 1]     | -0.003924  | 0.053883  
+model.8.m.0.cv3.bn.weight                          | [128]                | 1.169273   | 0.209669  
+model.8.m.0.cv3.bn.bias                            | [128]                | -0.526957  | 0.696603  
+model.8.m.0.cv3.bn.running_mean                    | [128]                | -0.446478  | 0.837167  
+model.8.m.0.cv3.bn.running_var                     | [128]                | 0.848183   | 0.346639  
+model.8.m.0.cv3.bn.num_batches_tracked             | []                   | 0.000000   | nan       
+model.8.m.0.m.0.cv1.conv.weight                    | [64, 64, 3, 3]       | -0.002356  | 0.031452  
+model.8.m.0.m.0.cv1.bn.weight                      | [64]                 | 1.177094   | 0.185102  
+model.8.m.0.m.0.cv1.bn.bias                        | [64]                 | -0.699703  | 0.700639  
+model.8.m.0.m.0.cv1.bn.running_mean                | [64]                 | -0.208333  | 0.205574  
+model.8.m.0.m.0.cv1.bn.running_var                 | [64]                 | 0.089585   | 0.031573  
+model.8.m.0.m.0.cv1.bn.num_batches_tracked         | []                   | 0.000000   | nan       
+model.8.m.0.m.0.cv2.conv.weight                    | [64, 64, 3, 3]       | -0.002173  | 0.029914  
+model.8.m.0.m.0.cv2.bn.weight                      | [64]                 | 1.150955   | 0.394066  
+model.8.m.0.m.0.cv2.bn.bias                        | [64]                 | 0.077856   | 0.901186  
+model.8.m.0.m.0.cv2.bn.running_mean                | [64]                 | -0.086822  | 0.273727  
+model.8.m.0.m.0.cv2.bn.running_var                 | [64]                 | 0.255596   | 0.057441  
+model.8.m.0.m.0.cv2.bn.num_batches_tracked         | []                   | 0.000000   | nan       
+model.8.m.0.m.1.cv1.conv.weight                    | [64, 64, 3, 3]       | -0.002709  | 0.030293  
+model.8.m.0.m.1.cv1.bn.weight                      | [64]                 | 1.206158   | 0.226364  
+model.8.m.0.m.1.cv1.bn.bias                        | [64]                 | -0.396672  | 0.735029  
+model.8.m.0.m.1.cv1.bn.running_mean                | [64]                 | -0.398874  | 0.608349  
+model.8.m.0.m.1.cv1.bn.running_var                 | [64]                 | 0.768234   | 0.284964  
+model.8.m.0.m.1.cv1.bn.num_batches_tracked         | []                   | 0.000000   | nan       
+model.8.m.0.m.1.cv2.conv.weight                    | [64, 64, 3, 3]       | -0.001234  | 0.029818  
+model.8.m.0.m.1.cv2.bn.weight                      | [64]                 | 1.697990   | 0.600853  
+model.8.m.0.m.1.cv2.bn.bias                        | [64]                 | 0.992305   | 0.892162  
+model.8.m.0.m.1.cv2.bn.running_mean                | [64]                 | -0.253242  | 0.561311  
+model.8.m.0.m.1.cv2.bn.running_var                 | [64]                 | 0.381832   | 0.129135  
+model.8.m.0.m.1.cv2.bn.num_batches_tracked         | []                   | 0.000000   | nan       
+model.9.cv1.conv.weight                            | [128, 256, 1, 1]     | -0.004677  | 0.044543  
+model.9.cv1.bn.weight                              | [128]                | 1.121735   | 0.181025  
+model.9.cv1.bn.bias                                | [128]                | 0.000005   | 0.000117  
+model.9.cv1.bn.running_mean                        | [128]                | -0.071145  | 0.375340  
+model.9.cv1.bn.running_var                         | [128]                | 0.132880   | 0.045082  
+model.9.cv1.bn.num_batches_tracked                 | []                   | 0.000000   | nan       
+model.9.cv2.conv.weight                            | [256, 512, 1, 1]     | -0.000216  | 0.032124  
+model.9.cv2.bn.weight                              | [256]                | 1.066820   | 0.321058  
+model.9.cv2.bn.bias                                | [256]                | -1.312062  | 0.824335  
+model.9.cv2.bn.running_mean                        | [256]                | -0.352397  | 1.389023  
+model.9.cv2.bn.running_var                         | [256]                | 0.825058   | 0.414193  
+model.9.cv2.bn.num_batches_tracked                 | []                   | 0.000000   | nan       
+model.10.cv1.conv.weight                           | [256, 256, 1, 1]     | -0.003674  | 0.044548  
+model.10.cv1.bn.weight                             | [256]                | 1.219795   | 0.301709  
+model.10.cv1.bn.bias                               | [256]                | 0.015758   | 0.800519  
+model.10.cv1.bn.running_mean                       | [256]                | 0.150890   | 0.405307  
+model.10.cv1.bn.running_var                        | [256]                | 0.214982   | 0.169401  
+model.10.cv1.bn.num_batches_tracked                | []                   | 0.000000   | nan       
+model.10.cv2.conv.weight                           | [256, 256, 1, 1]     | -0.001101  | 0.042906  
+model.10.cv2.bn.weight                             | [256]                | 0.969204   | 0.327990  
+model.10.cv2.bn.bias                               | [256]                | -0.989577  | 0.901074  
+model.10.cv2.bn.running_mean                       | [256]                | -0.075142  | 0.397671  
+model.10.cv2.bn.running_var                        | [256]                | 0.552525   | 0.228197  
+model.10.cv2.bn.num_batches_tracked                | []                   | 0.000000   | nan       
+model.10.m.0.attn.qkv.conv.weight                  | [256, 128, 1, 1]     | -0.000269  | 0.050117  
+model.10.m.0.attn.qkv.bn.weight                    | [256]                | 1.268998   | 0.423434  
+model.10.m.0.attn.qkv.bn.bias                      | [256]                | 0.004881   | 0.373076  
+model.10.m.0.attn.qkv.bn.running_mean              | [256]                | -0.021936  | 0.553501  
+model.10.m.0.attn.qkv.bn.running_var               | [256]                | 0.205831   | 0.111497  
+model.10.m.0.attn.qkv.bn.num_batches_tracked       | []                   | 0.000000   | nan       
+model.10.m.0.attn.proj.conv.weight                 | [128, 128, 1, 1]     | 0.000176   | 0.058538  
+model.10.m.0.attn.proj.bn.weight                   | [128]                | 0.704924   | 0.188934  
+model.10.m.0.attn.proj.bn.bias                     | [128]                | -0.000002  | 0.000131  
+model.10.m.0.attn.proj.bn.running_mean             | [128]                | 0.035616   | 0.177153  
+model.10.m.0.attn.proj.bn.running_var              | [128]                | 0.166378   | 0.048273  
+model.10.m.0.attn.proj.bn.num_batches_tracked      | []                   | 0.000000   | nan       
+model.10.m.0.attn.pe.conv.weight                   | [128, 1, 3, 3]       | -0.027696  | 0.084866  
+model.10.m.0.attn.pe.bn.weight                     | [128]                | 0.722744   | 0.334068  
+model.10.m.0.attn.pe.bn.bias                       | [128]                | 0.000004   | 0.000128  
+model.10.m.0.attn.pe.bn.running_mean               | [128]                | 0.012032   | 0.078814  
+model.10.m.0.attn.pe.bn.running_var                | [128]                | 0.192115   | 0.238383  
+model.10.m.0.attn.pe.bn.num_batches_tracked        | []                   | 0.000000   | nan       
+model.10.m.0.ffn.0.conv.weight                     | [256, 128, 1, 1]     | -0.003245  | 0.044776  
+model.10.m.0.ffn.0.bn.weight                       | [256]                | 0.834066   | 0.110354  
+model.10.m.0.ffn.0.bn.bias                         | [256]                | -1.749439  | 0.281266  
+model.10.m.0.ffn.0.bn.running_mean                 | [256]                | -0.141607  | 0.332380  
+model.10.m.0.ffn.0.bn.running_var                  | [256]                | 0.264907   | 0.099112  
+model.10.m.0.ffn.0.bn.num_batches_tracked          | []                   | 0.000000   | nan       
+model.10.m.0.ffn.1.conv.weight                     | [128, 256, 1, 1]     | -0.000798  | 0.041454  
+model.10.m.0.ffn.1.bn.weight                       | [128]                | 0.613140   | 0.130913  
+model.10.m.0.ffn.1.bn.bias                         | [128]                | -0.000001  | 0.000089  
+model.10.m.0.ffn.1.bn.running_mean                 | [128]                | 0.044248   | 0.230697  
+model.10.m.0.ffn.1.bn.running_var                  | [128]                | 0.005265   | 0.001379  
+model.10.m.0.ffn.1.bn.num_batches_tracked          | []                   | 0.000000   | nan       
+model.13.cv1.conv.weight                           | [128, 384, 1, 1]     | -0.002472  | 0.043237  
+model.13.cv1.bn.weight                             | [128]                | 0.763145   | 0.214376  
+model.13.cv1.bn.bias                               | [128]                | 0.024906   | 0.891362  
+model.13.cv1.bn.running_mean                       | [128]                | 0.127608   | 0.210817  
+model.13.cv1.bn.running_var                        | [128]                | 0.093481   | 0.037133  
+model.13.cv1.bn.num_batches_tracked                | []                   | 0.000000   | nan       
+model.13.cv2.conv.weight                           | [128, 192, 1, 1]     | -0.005120  | 0.052593  
+model.13.cv2.bn.weight                             | [128]                | 0.633547   | 0.222024  
+model.13.cv2.bn.bias                               | [128]                | -0.224797  | 0.728737  
+model.13.cv2.bn.running_mean                       | [128]                | -0.026688  | 0.363096  
+model.13.cv2.bn.running_var                        | [128]                | 0.118524   | 0.051405  
+model.13.cv2.bn.num_batches_tracked                | []                   | 0.000000   | nan       
+model.13.m.0.cv1.conv.weight                       | [32, 64, 1, 1]       | -0.005834  | 0.086203  
+model.13.m.0.cv1.bn.weight                         | [32]                 | 0.427715   | 0.122728  
+model.13.m.0.cv1.bn.bias                           | [32]                 | 0.065697   | 0.454577  
+model.13.m.0.cv1.bn.running_mean                   | [32]                 | 0.067467   | 0.407880  
+model.13.m.0.cv1.bn.running_var                    | [32]                 | 0.075271   | 0.029175  
+model.13.m.0.cv1.bn.num_batches_tracked            | []                   | 0.000000   | nan       
+model.13.m.0.cv2.conv.weight                       | [32, 64, 1, 1]       | -0.008197  | 0.070381  
+model.13.m.0.cv2.bn.weight                         | [32]                 | 1.172684   | 0.154911  
+model.13.m.0.cv2.bn.bias                           | [32]                 | -0.308328  | 0.583018  
+model.13.m.0.cv2.bn.running_mean                   | [32]                 | -0.032411  | 0.223218  
+model.13.m.0.cv2.bn.running_var                    | [32]                 | 0.046837   | 0.012062  
+model.13.m.0.cv2.bn.num_batches_tracked            | []                   | 0.000000   | nan       
+model.13.m.0.cv3.conv.weight                       | [64, 64, 1, 1]       | -0.005516  | 0.074522  
+model.13.m.0.cv3.bn.weight                         | [64]                 | 0.872890   | 0.156644  
+model.13.m.0.cv3.bn.bias                           | [64]                 | -0.256803  | 0.627475  
+model.13.m.0.cv3.bn.running_mean                   | [64]                 | -0.385540  | 1.161302  
+model.13.m.0.cv3.bn.running_var                    | [64]                 | 0.364996   | 0.119013  
+model.13.m.0.cv3.bn.num_batches_tracked            | []                   | 0.000000   | nan       
+model.13.m.0.m.0.cv1.conv.weight                   | [32, 32, 3, 3]       | -0.003229  | 0.047870  
+model.13.m.0.m.0.cv1.bn.weight                     | [32]                 | 0.805573   | 0.103120  
+model.13.m.0.m.0.cv1.bn.bias                       | [32]                 | -0.556472  | 0.610978  
+model.13.m.0.m.0.cv1.bn.running_mean               | [32]                 | -0.152493  | 0.165593  
+model.13.m.0.m.0.cv1.bn.running_var                | [32]                 | 0.048662   | 0.017228  
+model.13.m.0.m.0.cv1.bn.num_batches_tracked        | []                   | 0.000000   | nan       
+model.13.m.0.m.0.cv2.conv.weight                   | [32, 32, 3, 3]       | -0.002279  | 0.045212  
+model.13.m.0.m.0.cv2.bn.weight                     | [32]                 | 0.815735   | 0.194228  
+model.13.m.0.m.0.cv2.bn.bias                       | [32]                 | 0.234222   | 0.747065  
+model.13.m.0.m.0.cv2.bn.running_mean               | [32]                 | 0.056199   | 0.086711  
+model.13.m.0.m.0.cv2.bn.running_var                | [32]                 | 0.106009   | 0.035324  
+model.13.m.0.m.0.cv2.bn.num_batches_tracked        | []                   | 0.000000   | nan       
+model.13.m.0.m.1.cv1.conv.weight                   | [32, 32, 3, 3]       | -0.004442  | 0.045346  
+model.13.m.0.m.1.cv1.bn.weight                     | [32]                 | 0.689941   | 0.158709  
+model.13.m.0.m.1.cv1.bn.bias                       | [32]                 | -0.442395  | 0.597815  
+model.13.m.0.m.1.cv1.bn.running_mean               | [32]                 | -0.356403  | 0.371381  
+model.13.m.0.m.1.cv1.bn.running_var                | [32]                 | 0.290924   | 0.109512  
+model.13.m.0.m.1.cv1.bn.num_batches_tracked        | []                   | 0.000000   | nan       
+model.13.m.0.m.1.cv2.conv.weight                   | [32, 32, 3, 3]       | 0.000635   | 0.044228  
+model.13.m.0.m.1.cv2.bn.weight                     | [32]                 | 1.024002   | 0.158615  
+model.13.m.0.m.1.cv2.bn.bias                       | [32]                 | 1.856491   | 0.959649  
+model.13.m.0.m.1.cv2.bn.running_mean               | [32]                 | -0.014572  | 0.129722  
+model.13.m.0.m.1.cv2.bn.running_var                | [32]                 | 0.057200   | 0.011675  
+model.13.m.0.m.1.cv2.bn.num_batches_tracked        | []                   | 0.000000   | nan       
+model.16.cv1.conv.weight                           | [64, 256, 1, 1]      | -0.002749  | 0.049859  
+model.16.cv1.bn.weight                             | [64]                 | 0.542103   | 0.120776  
+model.16.cv1.bn.bias                               | [64]                 | 0.607947   | 0.873442  
+model.16.cv1.bn.running_mean                       | [64]                 | 0.040307   | 0.203380  
+model.16.cv1.bn.running_var                        | [64]                 | 0.076982   | 0.034017  
+model.16.cv1.bn.num_batches_tracked                | []                   | 0.000000   | nan       
+model.16.cv2.conv.weight                           | [64, 96, 1, 1]       | -0.001935  | 0.073969  
+model.16.cv2.bn.weight                             | [64]                 | 0.708158   | 0.585351  
+model.16.cv2.bn.bias                               | [64]                 | -0.042500  | 0.938642  
+model.16.cv2.bn.running_mean                       | [64]                 | -0.171825  | 0.637117  
+model.16.cv2.bn.running_var                        | [64]                 | 0.205462   | 0.127271  
+model.16.cv2.bn.num_batches_tracked                | []                   | 0.000000   | nan       
+model.16.m.0.cv1.conv.weight                       | [16, 32, 1, 1]       | -0.007432  | 0.125236  
+model.16.m.0.cv1.bn.weight                         | [16]                 | 0.207268   | 0.061293  
+model.16.m.0.cv1.bn.bias                           | [16]                 | 0.044518   | 0.379446  
+model.16.m.0.cv1.bn.running_mean                   | [16]                 | -0.174871  | 0.448266  
+model.16.m.0.cv1.bn.running_var                    | [16]                 | 0.046467   | 0.012651  
+model.16.m.0.cv1.bn.num_batches_tracked            | []                   | 0.000000   | nan       
+model.16.m.0.cv2.conv.weight                       | [16, 32, 1, 1]       | -0.006586  | 0.094833  
+model.16.m.0.cv2.bn.weight                         | [16]                 | 0.895966   | 0.228774  
+model.16.m.0.cv2.bn.bias                           | [16]                 | 0.053038   | 1.415941  
+model.16.m.0.cv2.bn.running_mean                   | [16]                 | -0.066634  | 0.333764  
+model.16.m.0.cv2.bn.running_var                    | [16]                 | 0.027328   | 0.006176  
+model.16.m.0.cv2.bn.num_batches_tracked            | []                   | 0.000000   | nan       
+model.16.m.0.cv3.conv.weight                       | [32, 32, 1, 1]       | -0.008920  | 0.107093  
+model.16.m.0.cv3.bn.weight                         | [32]                 | 1.156128   | 0.354186  
+model.16.m.0.cv3.bn.bias                           | [32]                 | 0.334673   | 1.005000  
+model.16.m.0.cv3.bn.running_mean                   | [32]                 | -0.230298  | 1.467791  
+model.16.m.0.cv3.bn.running_var                    | [32]                 | 0.549583   | 0.250414  
+model.16.m.0.cv3.bn.num_batches_tracked            | []                   | 0.000000   | nan       
+model.16.m.0.m.0.cv1.conv.weight                   | [16, 16, 3, 3]       | -0.001082  | 0.067076  
+model.16.m.0.m.0.cv1.bn.weight                     | [16]                 | 0.891052   | 0.094223  
+model.16.m.0.m.0.cv1.bn.bias                       | [16]                 | -0.137985  | 0.450254  
+model.16.m.0.m.0.cv1.bn.running_mean               | [16]                 | 0.001576   | 0.146420  
+model.16.m.0.m.0.cv1.bn.running_var                | [16]                 | 0.009127   | 0.005138  
+model.16.m.0.m.0.cv1.bn.num_batches_tracked        | []                   | 0.000000   | nan       
+model.16.m.0.m.0.cv2.conv.weight                   | [16, 16, 3, 3]       | -0.003489  | 0.067062  
+model.16.m.0.m.0.cv2.bn.weight                     | [16]                 | 0.791504   | 0.144634  
+model.16.m.0.m.0.cv2.bn.bias                       | [16]                 | -0.092903  | 0.569823  
+model.16.m.0.m.0.cv2.bn.running_mean               | [16]                 | -0.002142  | 0.174683  
+model.16.m.0.m.0.cv2.bn.running_var                | [16]                 | 0.171017   | 0.063548  
+model.16.m.0.m.0.cv2.bn.num_batches_tracked        | []                   | 0.000000   | nan       
+model.16.m.0.m.1.cv1.conv.weight                   | [16, 16, 3, 3]       | -0.003355  | 0.065981  
+model.16.m.0.m.1.cv1.bn.weight                     | [16]                 | 0.653397   | 0.143778  
+model.16.m.0.m.1.cv1.bn.bias                       | [16]                 | -0.250214  | 0.823395  
+model.16.m.0.m.1.cv1.bn.running_mean               | [16]                 | -0.011051  | 0.299111  
+model.16.m.0.m.1.cv1.bn.running_var                | [16]                 | 0.186882   | 0.084705  
+model.16.m.0.m.1.cv1.bn.num_batches_tracked        | []                   | 0.000000   | nan       
+model.16.m.0.m.1.cv2.conv.weight                   | [16, 16, 3, 3]       | 0.000928   | 0.067610  
+model.16.m.0.m.1.cv2.bn.weight                     | [16]                 | 1.508728   | 0.331990  
+model.16.m.0.m.1.cv2.bn.bias                       | [16]                 | 2.450775   | 1.646164  
+model.16.m.0.m.1.cv2.bn.running_mean               | [16]                 | 0.064533   | 0.457954  
+model.16.m.0.m.1.cv2.bn.running_var                | [16]                 | 0.060137   | 0.017110  
+model.16.m.0.m.1.cv2.bn.num_batches_tracked        | []                   | 0.000000   | nan       
+model.17.conv.weight                               | [64, 64, 3, 3]       | -0.000425  | 0.030895  
+model.17.bn.weight                                 | [64]                 | 0.830887   | 0.166751  
+model.17.bn.bias                                   | [64]                 | -0.467099  | 0.673682  
+model.17.bn.running_mean                           | [64]                 | -0.293037  | 0.796439  
+model.17.bn.running_var                            | [64]                 | 0.168583   | 0.105078  
+model.17.bn.num_batches_tracked                    | []                   | 0.000000   | nan       
+model.19.cv1.conv.weight                           | [128, 192, 1, 1]     | -0.002798  | 0.048086  
+model.19.cv1.bn.weight                             | [128]                | 0.876368   | 0.199435  
+model.19.cv1.bn.bias                               | [128]                | -0.078799  | 0.683649  
+model.19.cv1.bn.running_mean                       | [128]                | 0.050463   | 0.175389  
+model.19.cv1.bn.running_var                        | [128]                | 0.061432   | 0.038122  
+model.19.cv1.bn.num_batches_tracked                | []                   | 0.000000   | nan       
+model.19.cv2.conv.weight                           | [128, 192, 1, 1]     | -0.001922  | 0.049875  
+model.19.cv2.bn.weight                             | [128]                | 0.846932   | 0.658795  
+model.19.cv2.bn.bias                               | [128]                | -0.341757  | 0.977403  
+model.19.cv2.bn.running_mean                       | [128]                | -0.147688  | 0.448442  
+model.19.cv2.bn.running_var                        | [128]                | 0.308422   | 0.235936  
+model.19.cv2.bn.num_batches_tracked                | []                   | 0.000000   | nan       
+model.19.m.0.cv1.conv.weight                       | [32, 64, 1, 1]       | -0.005322  | 0.078353  
+model.19.m.0.cv1.bn.weight                         | [32]                 | 0.308922   | 0.134440  
+model.19.m.0.cv1.bn.bias                           | [32]                 | -0.052108  | 0.526056  
+model.19.m.0.cv1.bn.running_mean                   | [32]                 | 0.004845   | 0.216162  
+model.19.m.0.cv1.bn.running_var                    | [32]                 | 0.128553   | 0.046251  
+model.19.m.0.cv1.bn.num_batches_tracked            | []                   | 0.000000   | nan       
+model.19.m.0.cv2.conv.weight                       | [32, 64, 1, 1]       | -0.003302  | 0.063107  
+model.19.m.0.cv2.bn.weight                         | [32]                 | 1.080917   | 0.275060  
+model.19.m.0.cv2.bn.bias                           | [32]                 | -0.036726  | 0.518717  
+model.19.m.0.cv2.bn.running_mean                   | [32]                 | -0.013600  | 0.214775  
+model.19.m.0.cv2.bn.running_var                    | [32]                 | 0.085954   | 0.029822  
+model.19.m.0.cv2.bn.num_batches_tracked            | []                   | 0.000000   | nan       
+model.19.m.0.cv3.conv.weight                       | [64, 64, 1, 1]       | -0.002625  | 0.074516  
+model.19.m.0.cv3.bn.weight                         | [64]                 | 1.622444   | 0.959960  
+model.19.m.0.cv3.bn.bias                           | [64]                 | 0.040457   | 0.819343  
+model.19.m.0.cv3.bn.running_mean                   | [64]                 | -0.239808  | 0.944520  
+model.19.m.0.cv3.bn.running_var                    | [64]                 | 0.870312   | 0.538964  
+model.19.m.0.cv3.bn.num_batches_tracked            | []                   | 0.000000   | nan       
+model.19.m.0.m.0.cv1.conv.weight                   | [32, 32, 3, 3]       | -0.001761  | 0.046708  
+model.19.m.0.m.0.cv1.bn.weight                     | [32]                 | 0.836052   | 0.157253  
+model.19.m.0.m.0.cv1.bn.bias                       | [32]                 | -0.470029  | 0.417648  
+model.19.m.0.m.0.cv1.bn.running_mean               | [32]                 | -0.019558  | 0.133776  
+model.19.m.0.m.0.cv1.bn.running_var                | [32]                 | 0.016300   | 0.006283  
+model.19.m.0.m.0.cv1.bn.num_batches_tracked        | []                   | 0.000000   | nan       
+model.19.m.0.m.0.cv2.conv.weight                   | [32, 32, 3, 3]       | -0.002143  | 0.043666  
+model.19.m.0.m.0.cv2.bn.weight                     | [32]                 | 0.760422   | 0.206061  
+model.19.m.0.m.0.cv2.bn.bias                       | [32]                 | -0.280805  | 0.713242  
+model.19.m.0.m.0.cv2.bn.running_mean               | [32]                 | 0.042908   | 0.102840  
+model.19.m.0.m.0.cv2.bn.running_var                | [32]                 | 0.085376   | 0.033872  
+model.19.m.0.m.0.cv2.bn.num_batches_tracked        | []                   | 0.000000   | nan       
+model.19.m.0.m.1.cv1.conv.weight                   | [32, 32, 3, 3]       | -0.002466  | 0.043394  
+model.19.m.0.m.1.cv1.bn.weight                     | [32]                 | 0.896790   | 0.141102  
+model.19.m.0.m.1.cv1.bn.bias                       | [32]                 | -0.366814  | 0.430860  
+model.19.m.0.m.1.cv1.bn.running_mean               | [32]                 | 0.044652   | 0.391497  
+model.19.m.0.m.1.cv1.bn.running_var                | [32]                 | 0.158850   | 0.058042  
+model.19.m.0.m.1.cv1.bn.num_batches_tracked        | []                   | 0.000000   | nan       
+model.19.m.0.m.1.cv2.conv.weight                   | [32, 32, 3, 3]       | -0.000401  | 0.043917  
+model.19.m.0.m.1.cv2.bn.weight                     | [32]                 | 2.267380   | 0.949505  
+model.19.m.0.m.1.cv2.bn.bias                       | [32]                 | 0.991276   | 1.697936  
+model.19.m.0.m.1.cv2.bn.running_mean               | [32]                 | 0.025415   | 0.144403  
+model.19.m.0.m.1.cv2.bn.running_var                | [32]                 | 0.206082   | 0.108905  
+model.19.m.0.m.1.cv2.bn.num_batches_tracked        | []                   | 0.000000   | nan       
+model.20.conv.weight                               | [128, 128, 3, 3]     | -0.000671  | 0.019944  
+model.20.bn.weight                                 | [128]                | 1.017223   | 0.231412  
+model.20.bn.bias                                   | [128]                | -0.486489  | 0.499840  
+model.20.bn.running_mean                           | [128]                | -0.159904  | 0.445577  
+model.20.bn.running_var                            | [128]                | 0.219792   | 0.169442  
+model.20.bn.num_batches_tracked                    | []                   | 0.000000   | nan       
+model.22.cv1.conv.weight                           | [256, 384, 1, 1]     | -0.002068  | 0.032039  
+model.22.cv1.bn.weight                             | [256]                | 1.028859   | 0.395771  
+model.22.cv1.bn.bias                               | [256]                | -0.510546  | 0.622889  
+model.22.cv1.bn.running_mean                       | [256]                | 0.041515   | 0.140815  
+model.22.cv1.bn.running_var                        | [256]                | 0.070040   | 0.047600  
+model.22.cv1.bn.num_batches_tracked                | []                   | 0.000000   | nan       
+model.22.cv2.conv.weight                           | [256, 384, 1, 1]     | -0.000866  | 0.031176  
+model.22.cv2.bn.weight                             | [256]                | 1.099744   | 0.830444  
+model.22.cv2.bn.bias                               | [256]                | -0.517973  | 0.758281  
+model.22.cv2.bn.running_mean                       | [256]                | -0.123012  | 0.264791  
+model.22.cv2.bn.running_var                        | [256]                | 0.449017   | 0.268713  
+model.22.cv2.bn.num_batches_tracked                | []                   | 0.000000   | nan       
+model.22.m.0.0.cv1.conv.weight                     | [64, 128, 3, 3]      | -0.001392  | 0.021481  
+model.22.m.0.0.cv1.bn.weight                       | [64]                 | 1.073135   | 0.192240  
+model.22.m.0.0.cv1.bn.bias                         | [64]                 | -0.566355  | 0.899181  
+model.22.m.0.0.cv1.bn.running_mean                 | [64]                 | -0.007387  | 0.224961  
+model.22.m.0.0.cv1.bn.running_var                  | [64]                 | 0.088393   | 0.064120  
+model.22.m.0.0.cv1.bn.num_batches_tracked          | []                   | 0.000000   | nan       
+model.22.m.0.0.cv2.conv.weight                     | [128, 64, 3, 3]      | -0.001802  | 0.027328  
+model.22.m.0.0.cv2.bn.weight                       | [128]                | 1.282101   | 0.320346  
+model.22.m.0.0.cv2.bn.bias                         | [128]                | -0.320957  | 0.773390  
+model.22.m.0.0.cv2.bn.running_mean                 | [128]                | 0.178439   | 0.373398  
+model.22.m.0.0.cv2.bn.running_var                  | [128]                | 0.270774   | 0.177255  
+model.22.m.0.0.cv2.bn.num_batches_tracked          | []                   | 0.000000   | nan       
+model.22.m.0.1.attn.qkv.conv.weight                | [256, 128, 1, 1]     | 0.000171   | 0.037401  
+model.22.m.0.1.attn.qkv.bn.weight                  | [256]                | 0.972354   | 0.455665  
+model.22.m.0.1.attn.qkv.bn.bias                    | [256]                | 0.003885   | 0.303192  
+model.22.m.0.1.attn.qkv.bn.running_mean            | [256]                | 0.012884   | 0.294155  
+model.22.m.0.1.attn.qkv.bn.running_var             | [256]                | 0.110250   | 0.041260  
+model.22.m.0.1.attn.qkv.bn.num_batches_tracked     | []                   | 0.000000   | nan       
+model.22.m.0.1.attn.proj.conv.weight               | [128, 128, 1, 1]     | -0.000085  | 0.046349  
+model.22.m.0.1.attn.proj.bn.weight                 | [128]                | 0.665171   | 0.169518  
+model.22.m.0.1.attn.proj.bn.bias                   | [128]                | -0.000005  | 0.000035  
+model.22.m.0.1.attn.proj.bn.running_mean           | [128]                | 0.011839   | 0.119022  
+model.22.m.0.1.attn.proj.bn.running_var            | [128]                | 0.251350   | 0.084039  
+model.22.m.0.1.attn.proj.bn.num_batches_tracked    | []                   | 0.000000   | nan       
+model.22.m.0.1.attn.pe.conv.weight                 | [128, 1, 3, 3]       | -0.011131  | 0.068018  
+model.22.m.0.1.attn.pe.bn.weight                   | [128]                | 1.048954   | 0.336139  
+model.22.m.0.1.attn.pe.bn.bias                     | [128]                | -0.000000  | 0.000020  
+model.22.m.0.1.attn.pe.bn.running_mean             | [128]                | 0.000681   | 0.023387  
+model.22.m.0.1.attn.pe.bn.running_var              | [128]                | 0.027758   | 0.044291  
+model.22.m.0.1.attn.pe.bn.num_batches_tracked      | []                   | 0.000000   | nan       
+model.22.m.0.1.ffn.0.conv.weight                   | [256, 128, 1, 1]     | -0.003566  | 0.035255  
+model.22.m.0.1.ffn.0.bn.weight                     | [256]                | 1.378139   | 0.463826  
+model.22.m.0.1.ffn.0.bn.bias                       | [256]                | -0.777182  | 0.417177  
+model.22.m.0.1.ffn.0.bn.running_mean               | [256]                | -0.048220  | 0.176218  
+model.22.m.0.1.ffn.0.bn.running_var                | [256]                | 0.230324   | 0.154068  
+model.22.m.0.1.ffn.0.bn.num_batches_tracked        | []                   | 0.000000   | nan       
+model.22.m.0.1.ffn.1.conv.weight                   | [128, 256, 1, 1]     | 0.000367   | 0.035728  
+model.22.m.0.1.ffn.1.bn.weight                     | [128]                | 0.887342   | 0.205133  
+model.22.m.0.1.ffn.1.bn.bias                       | [128]                | -0.000006  | 0.000024  
+model.22.m.0.1.ffn.1.bn.running_mean               | [128]                | 0.028783   | 0.094637  
+model.22.m.0.1.ffn.1.bn.running_var                | [128]                | 0.086863   | 0.033388  
+model.22.m.0.1.ffn.1.bn.num_batches_tracked        | []                   | 0.000000   | nan       
+model.23.cv2.0.0.conv.weight                       | [16, 64, 3, 3]       | -0.000289  | 0.034140  
+model.23.cv2.0.0.bn.weight                         | [16]                 | 1.303894   | 0.576775  
+model.23.cv2.0.0.bn.bias                           | [16]                 | 1.631664   | 1.865698  
+model.23.cv2.0.0.bn.running_mean                   | [16]                 | 0.304701   | 0.929251  
+model.23.cv2.0.0.bn.running_var                    | [16]                 | 0.341656   | 0.252697  
+model.23.cv2.0.0.bn.num_batches_tracked            | []                   | 0.000000   | nan       
+model.23.cv2.0.1.conv.weight                       | [16, 16, 3, 3]       | -0.000030  | 0.069274  
+model.23.cv2.0.1.bn.weight                         | [16]                 | 1.239838   | 0.800411  
+model.23.cv2.0.1.bn.bias                           | [16]                 | 0.378345   | 0.948964  
+model.23.cv2.0.1.bn.running_mean                   | [16]                 | 0.378601   | 3.057598  
+model.23.cv2.0.1.bn.running_var                    | [16]                 | 1.381454   | 0.807737  
+model.23.cv2.0.1.bn.num_batches_tracked            | []                   | 0.000000   | nan       
+model.23.cv2.0.2.weight                            | [4, 16, 1, 1]        | 0.090728   | 0.307804  
+model.23.cv2.0.2.bias                              | [4]                  | 1.103027   | 0.410050  
+model.23.cv2.1.0.conv.weight                       | [16, 128, 3, 3]      | -0.000135  | 0.024996  
+model.23.cv2.1.0.bn.weight                         | [16]                 | 1.788330   | 0.556158  
+model.23.cv2.1.0.bn.bias                           | [16]                 | 1.457184   | 1.582233  
+model.23.cv2.1.0.bn.running_mean                   | [16]                 | 0.088285   | 0.972007  
+model.23.cv2.1.0.bn.running_var                    | [16]                 | 0.978050   | 0.827354  
+model.23.cv2.1.0.bn.num_batches_tracked            | []                   | 0.000000   | nan       
+model.23.cv2.1.1.conv.weight                       | [16, 16, 3, 3]       | -0.001951  | 0.069902  
+model.23.cv2.1.1.bn.weight                         | [16]                 | 1.357605   | 0.680123  
+model.23.cv2.1.1.bn.bias                           | [16]                 | 0.415890   | 0.889006  
+model.23.cv2.1.1.bn.running_mean                   | [16]                 | -0.318575  | 2.642510  
+model.23.cv2.1.1.bn.running_var                    | [16]                 | 3.251602   | 2.067630  
+model.23.cv2.1.1.bn.num_batches_tracked            | []                   | 0.000000   | nan       
+model.23.cv2.1.2.weight                            | [4, 16, 1, 1]        | 0.093343   | 0.305833  
+model.23.cv2.1.2.bias                              | [4]                  | 1.622070   | 0.388702  
+model.23.cv2.2.0.conv.weight                       | [16, 256, 3, 3]      | -0.000424  | 0.017727  
+model.23.cv2.2.0.bn.weight                         | [16]                 | 1.594971   | 0.578940  
+model.23.cv2.2.0.bn.bias                           | [16]                 | 0.982338   | 1.489953  
+model.23.cv2.2.0.bn.running_mean                   | [16]                 | -0.990112  | 1.408141  
+model.23.cv2.2.0.bn.running_var                    | [16]                 | 6.811401   | 6.298404  
+model.23.cv2.2.0.bn.num_batches_tracked            | []                   | 0.000000   | nan       
+model.23.cv2.2.1.conv.weight                       | [16, 16, 3, 3]       | 0.000365   | 0.072079  
+model.23.cv2.2.1.bn.weight                         | [16]                 | 1.381744   | 0.726007  
+model.23.cv2.2.1.bn.bias                           | [16]                 | 0.654665   | 0.516408  
+model.23.cv2.2.1.bn.running_mean                   | [16]                 | -0.018799  | 1.929090  
+model.23.cv2.2.1.bn.running_var                    | [16]                 | 2.078278   | 1.261422  
+model.23.cv2.2.1.bn.num_batches_tracked            | []                   | 0.000000   | nan       
+model.23.cv2.2.2.weight                            | [4, 16, 1, 1]        | 0.070892   | 0.318455  
+model.23.cv2.2.2.bias                              | [4]                  | 2.358643   | 0.429095  
+model.23.cv3.0.0.0.conv.weight                     | [64, 1, 3, 3]        | 0.020102   | 0.089175  
+model.23.cv3.0.0.0.bn.weight                       | [64]                 | 0.555824   | 0.195638  
+model.23.cv3.0.0.0.bn.bias                         | [64]                 | 1.829246   | 1.163898  
+model.23.cv3.0.0.0.bn.running_mean                 | [64]                 | -0.041448  | 0.270254  
+model.23.cv3.0.0.0.bn.running_var                  | [64]                 | 0.017391   | 0.019485  
+model.23.cv3.0.0.0.bn.num_batches_tracked          | []                   | 0.000000   | nan       
+model.23.cv3.0.0.1.conv.weight                     | [80, 64, 1, 1]       | -0.002302  | 0.084161  
+model.23.cv3.0.0.1.bn.weight                       | [80]                 | 0.673813   | 0.254375  
+model.23.cv3.0.0.1.bn.bias                         | [80]                 | 0.302261   | 0.666111  
+model.23.cv3.0.0.1.bn.running_mean                 | [80]                 | 0.022049   | 1.186013  
+model.23.cv3.0.0.1.bn.running_var                  | [80]                 | 0.124159   | 0.046529  
+model.23.cv3.0.0.1.bn.num_batches_tracked          | []                   | 0.000000   | nan       
+model.23.cv3.0.1.0.conv.weight                     | [80, 1, 3, 3]        | 0.009380   | 0.097567  
+model.23.cv3.0.1.0.bn.weight                       | [80]                 | 0.636267   | 0.206894  
+model.23.cv3.0.1.0.bn.bias                         | [80]                 | 0.744371   | 0.795694  
+model.23.cv3.0.1.0.bn.running_mean                 | [80]                 | 0.015039   | 0.147047  
+model.23.cv3.0.1.0.bn.running_var                  | [80]                 | 0.025243   | 0.023185  
+model.23.cv3.0.1.0.bn.num_batches_tracked          | []                   | 0.000000   | nan       
+model.23.cv3.0.1.1.conv.weight                     | [80, 80, 1, 1]       | -0.002180  | 0.076142  
+model.23.cv3.0.1.1.bn.weight                       | [80]                 | 1.571326   | 0.262110  
+model.23.cv3.0.1.1.bn.bias                         | [80]                 | 1.012697   | 1.220254  
+model.23.cv3.0.1.1.bn.running_mean                 | [80]                 | -0.231747  | 0.505570  
+model.23.cv3.0.1.1.bn.running_var                  | [80]                 | 0.129197   | 0.041566  
+model.23.cv3.0.1.1.bn.num_batches_tracked          | []                   | 0.000000   | nan       
+model.23.cv3.0.2.weight                            | [80, 80, 1, 1]       | -0.018264  | 0.118413  
+model.23.cv3.0.2.bias                              | [80]                 | -11.510058 | 0.793113  
+model.23.cv3.1.0.0.conv.weight                     | [128, 1, 3, 3]       | 0.013537   | 0.068342  
+model.23.cv3.1.0.0.bn.weight                       | [128]                | 0.574602   | 0.257581  
+model.23.cv3.1.0.0.bn.bias                         | [128]                | 1.037675   | 1.073678  
+model.23.cv3.1.0.0.bn.running_mean                 | [128]                | -0.021480  | 0.083067  
+model.23.cv3.1.0.0.bn.running_var                  | [128]                | 0.008582   | 0.009531  
+model.23.cv3.1.0.0.bn.num_batches_tracked          | []                   | 0.000000   | nan       
+model.23.cv3.1.0.1.conv.weight                     | [80, 128, 1, 1]      | -0.002866  | 0.066971  
+model.23.cv3.1.0.1.bn.weight                       | [80]                 | 0.870139   | 0.279456  
+model.23.cv3.1.0.1.bn.bias                         | [80]                 | 0.247644   | 0.605962  
+model.23.cv3.1.0.1.bn.running_mean                 | [80]                 | -0.422469  | 1.031332  
+model.23.cv3.1.0.1.bn.running_var                  | [80]                 | 0.171199   | 0.073379  
+model.23.cv3.1.0.1.bn.num_batches_tracked          | []                   | 0.000000   | nan       
+model.23.cv3.1.1.0.conv.weight                     | [80, 1, 3, 3]        | 0.002662   | 0.089457  
+model.23.cv3.1.1.0.bn.weight                       | [80]                 | 0.704968   | 0.362526  
+model.23.cv3.1.1.0.bn.bias                         | [80]                 | 0.770680   | 0.654227  
+model.23.cv3.1.1.0.bn.running_mean                 | [80]                 | 0.012366   | 0.187773  
+model.23.cv3.1.1.0.bn.running_var                  | [80]                 | 0.048422   | 0.036170  
+model.23.cv3.1.1.0.bn.num_batches_tracked          | []                   | 0.000000   | nan       
+model.23.cv3.1.1.1.conv.weight                     | [80, 80, 1, 1]       | -0.001233  | 0.073722  
+model.23.cv3.1.1.1.bn.weight                       | [80]                 | 1.645117   | 0.478657  
+model.23.cv3.1.1.1.bn.bias                         | [80]                 | 1.107178   | 1.087196  
+model.23.cv3.1.1.1.bn.running_mean                 | [80]                 | -0.066590  | 0.468741  
+model.23.cv3.1.1.1.bn.running_var                  | [80]                 | 0.097859   | 0.044267  
+model.23.cv3.1.1.1.bn.num_batches_tracked          | []                   | 0.000000   | nan       
+model.23.cv3.1.2.weight                            | [80, 80, 1, 1]       | -0.019224  | 0.117406  
+model.23.cv3.1.2.bias                              | [80]                 | -10.100635 | 0.676619  
+model.23.cv3.2.0.0.conv.weight                     | [256, 1, 3, 3]       | 0.010411   | 0.052327  
+model.23.cv3.2.0.0.bn.weight                       | [256]                | 0.891530   | 0.262492  
+model.23.cv3.2.0.0.bn.bias                         | [256]                | 0.213828   | 0.640286  
+model.23.cv3.2.0.0.bn.running_mean                 | [256]                | -0.022262  | 0.061878  
+model.23.cv3.2.0.0.bn.running_var                  | [256]                | 0.008970   | 0.021320  
+model.23.cv3.2.0.0.bn.num_batches_tracked          | []                   | 0.000000   | nan       
+model.23.cv3.2.0.1.conv.weight                     | [80, 256, 1, 1]      | -0.002349  | 0.048398  
+model.23.cv3.2.0.1.bn.weight                       | [80]                 | 1.022900   | 0.240307  
+model.23.cv3.2.0.1.bn.bias                         | [80]                 | 0.306679   | 0.493506  
+model.23.cv3.2.0.1.bn.running_mean                 | [80]                 | -0.061699  | 0.344700  
+model.23.cv3.2.0.1.bn.running_var                  | [80]                 | 0.288380   | 0.098972  
+model.23.cv3.2.0.1.bn.num_batches_tracked          | []                   | 0.000000   | nan       
+model.23.cv3.2.1.0.conv.weight                     | [80, 1, 3, 3]        | 0.000521   | 0.083101  
+model.23.cv3.2.1.0.bn.weight                       | [80]                 | 0.732623   | 0.332626  
+model.23.cv3.2.1.0.bn.bias                         | [80]                 | 0.668069   | 0.572866  
+model.23.cv3.2.1.0.bn.running_mean                 | [80]                 | 0.014806   | 0.179066  
+model.23.cv3.2.1.0.bn.running_var                  | [80]                 | 0.049911   | 0.023404  
+model.23.cv3.2.1.0.bn.num_batches_tracked          | []                   | 0.000000   | nan       
+model.23.cv3.2.1.1.conv.weight                     | [80, 80, 1, 1]       | -0.004258  | 0.071998  
+model.23.cv3.2.1.1.bn.weight                       | [80]                 | 1.668774   | 0.791213  
+model.23.cv3.2.1.1.bn.bias                         | [80]                 | 0.947422   | 0.944187  
+model.23.cv3.2.1.1.bn.running_mean                 | [80]                 | -0.182545  | 0.382664  
+model.23.cv3.2.1.1.bn.running_var                  | [80]                 | 0.105710   | 0.070029  
+model.23.cv3.2.1.1.bn.num_batches_tracked          | []                   | 0.000000   | nan       
+model.23.cv3.2.2.weight                            | [80, 80, 1, 1]       | -0.022646  | 0.132015  
+model.23.cv3.2.2.bias                              | [80]                 | -8.807813  | 0.680035  
+model.23.one2one_cv2.0.0.conv.weight               | [16, 64, 3, 3]       | -0.000002  | 0.047655  
+model.23.one2one_cv2.0.0.bn.weight                 | [16]                 | 2.040466   | 0.937702  
+model.23.one2one_cv2.0.0.bn.bias                   | [16]                 | 2.812073   | 2.325332  
+model.23.one2one_cv2.0.0.bn.running_mean           | [16]                 | 0.307899   | 1.046576  
+model.23.one2one_cv2.0.0.bn.running_var            | [16]                 | 0.452164   | 0.365369  
+model.23.one2one_cv2.0.0.bn.num_batches_tracked    | []                   | 0.000000   | nan       
+model.23.one2one_cv2.0.1.conv.weight               | [16, 16, 3, 3]       | -0.000711  | 0.092276  
+model.23.one2one_cv2.0.1.bn.weight                 | [16]                 | 1.023849   | 0.583650  
+model.23.one2one_cv2.0.1.bn.bias                   | [16]                 | 0.140874   | 0.876152  
+model.23.one2one_cv2.0.1.bn.running_mean           | [16]                 | 1.529633   | 5.231319  
+model.23.one2one_cv2.0.1.bn.running_var            | [16]                 | 6.876221   | 3.989570  
+model.23.one2one_cv2.0.1.bn.num_batches_tracked    | []                   | 0.000000   | nan       
+model.23.one2one_cv2.0.2.weight                    | [4, 16, 1, 1]        | 0.069794   | 0.365139  
+model.23.one2one_cv2.0.2.bias                      | [4]                  | 0.759766   | 0.160847  
+model.23.one2one_cv2.1.0.conv.weight               | [16, 128, 3, 3]      | -0.000354  | 0.028843  
+model.23.one2one_cv2.1.0.bn.weight                 | [16]                 | 1.784668   | 0.473231  
+model.23.one2one_cv2.1.0.bn.bias                   | [16]                 | 1.586380   | 1.608232  
+model.23.one2one_cv2.1.0.bn.running_mean           | [16]                 | 0.213234   | 1.088325  
+model.23.one2one_cv2.1.0.bn.running_var            | [16]                 | 1.323250   | 1.063950  
+model.23.one2one_cv2.1.0.bn.num_batches_tracked    | []                   | 0.000000   | nan       
+model.23.one2one_cv2.1.1.conv.weight               | [16, 16, 3, 3]       | 0.000312   | 0.080638  
+model.23.one2one_cv2.1.1.bn.weight                 | [16]                 | 1.220154   | 0.528436  
+model.23.one2one_cv2.1.1.bn.bias                   | [16]                 | 0.303429   | 0.961270  
+model.23.one2one_cv2.1.1.bn.running_mean           | [16]                 | 0.803772   | 2.739675  
+model.23.one2one_cv2.1.1.bn.running_var            | [16]                 | 5.443085   | 3.671752  
+model.23.one2one_cv2.1.1.bn.num_batches_tracked    | []                   | 0.000000   | nan       
+model.23.one2one_cv2.1.2.weight                    | [4, 16, 1, 1]        | 0.099680   | 0.331669  
+model.23.one2one_cv2.1.2.bias                      | [4]                  | 1.411377   | 0.456622  
+model.23.one2one_cv2.2.0.conv.weight               | [16, 256, 3, 3]      | -0.000490  | 0.019183  
+model.23.one2one_cv2.2.0.bn.weight                 | [16]                 | 1.501099   | 0.419229  
+model.23.one2one_cv2.2.0.bn.bias                   | [16]                 | 1.091967   | 1.360814  
+model.23.one2one_cv2.2.0.bn.running_mean           | [16]                 | -1.045021  | 1.655849  
+model.23.one2one_cv2.2.0.bn.running_var            | [16]                 | 8.355225   | 7.554872  
+model.23.one2one_cv2.2.0.bn.num_batches_tracked    | []                   | 0.000000   | nan       
+model.23.one2one_cv2.2.1.conv.weight               | [16, 16, 3, 3]       | 0.000077   | 0.072755  
+model.23.one2one_cv2.2.1.bn.weight                 | [16]                 | 1.383514   | 0.596881  
+model.23.one2one_cv2.2.1.bn.bias                   | [16]                 | 0.578014   | 0.595339  
+model.23.one2one_cv2.2.1.bn.running_mean           | [16]                 | -0.184944  | 2.241317  
+model.23.one2one_cv2.2.1.bn.running_var            | [16]                 | 2.743744   | 1.872708  
+model.23.one2one_cv2.2.1.bn.num_batches_tracked    | []                   | 0.000000   | nan       
+model.23.one2one_cv2.2.2.weight                    | [4, 16, 1, 1]        | 0.073833   | 0.318321  
+model.23.one2one_cv2.2.2.bias                      | [4]                  | 2.335938   | 0.325639  
+model.23.one2one_cv3.0.0.0.conv.weight             | [64, 1, 3, 3]        | 0.012203   | 0.126497  
+model.23.one2one_cv3.0.0.0.bn.weight               | [64]                 | 0.708927   | 0.223762  
+model.23.one2one_cv3.0.0.0.bn.bias                 | [64]                 | 2.584412   | 1.179820  
+model.23.one2one_cv3.0.0.0.bn.running_mean         | [64]                 | -0.059729  | 0.238588  
+model.23.one2one_cv3.0.0.0.bn.running_var          | [64]                 | 0.026952   | 0.027602  
+model.23.one2one_cv3.0.0.0.bn.num_batches_tracked  | []                   | 0.000000   | nan       
+model.23.one2one_cv3.0.0.1.conv.weight             | [80, 64, 1, 1]       | -0.000581  | 0.100274  
+model.23.one2one_cv3.0.0.1.bn.weight               | [80]                 | 0.558089   | 0.323850  
+model.23.one2one_cv3.0.0.1.bn.bias                 | [80]                 | 0.194622   | 0.955874  
+model.23.one2one_cv3.0.0.1.bn.running_mean         | [80]                 | 0.135332   | 1.899986  
+model.23.one2one_cv3.0.0.1.bn.running_var          | [80]                 | 0.322130   | 0.192578  
+model.23.one2one_cv3.0.0.1.bn.num_batches_tracked  | []                   | 0.000000   | nan       
+model.23.one2one_cv3.0.1.0.conv.weight             | [80, 1, 3, 3]        | 0.011215   | 0.120458  
+model.23.one2one_cv3.0.1.0.bn.weight               | [80]                 | 0.741733   | 0.288134  
+model.23.one2one_cv3.0.1.0.bn.bias                 | [80]                 | 1.215750   | 1.063442  
+model.23.one2one_cv3.0.1.0.bn.running_mean         | [80]                 | 0.052028   | 0.228381  
+model.23.one2one_cv3.0.1.0.bn.running_var          | [80]                 | 0.026930   | 0.042487  
+model.23.one2one_cv3.0.1.0.bn.num_batches_tracked  | []                   | 0.000000   | nan       
+model.23.one2one_cv3.0.1.1.conv.weight             | [80, 80, 1, 1]       | -0.004573  | 0.094363  
+model.23.one2one_cv3.0.1.1.bn.weight               | [80]                 | 1.599609   | 0.569053  
+model.23.one2one_cv3.0.1.1.bn.bias                 | [80]                 | 0.984055   | 1.380973  
+model.23.one2one_cv3.0.1.1.bn.running_mean         | [80]                 | -0.243629  | 1.194931  
+model.23.one2one_cv3.0.1.1.bn.running_var          | [80]                 | 0.284879   | 0.080517  
+model.23.one2one_cv3.0.1.1.bn.num_batches_tracked  | []                   | 0.000000   | nan       
+model.23.one2one_cv3.0.2.weight                    | [80, 80, 1, 1]       | -0.021566  | 0.130224  
+model.23.one2one_cv3.0.2.bias                      | [80]                 | -12.060351 | 1.052265  
+model.23.one2one_cv3.1.0.0.conv.weight             | [128, 1, 3, 3]       | 0.014549   | 0.115322  
+model.23.one2one_cv3.1.0.0.bn.weight               | [128]                | 0.744791   | 0.413265  
+model.23.one2one_cv3.1.0.0.bn.bias                 | [128]                | 1.598674   | 1.320446  
+model.23.one2one_cv3.1.0.0.bn.running_mean         | [128]                | -0.028199  | 0.137852  
+model.23.one2one_cv3.1.0.0.bn.running_var          | [128]                | 0.022827   | 0.036286  
+model.23.one2one_cv3.1.0.0.bn.num_batches_tracked  | []                   | 0.000000   | nan       
+model.23.one2one_cv3.1.0.1.conv.weight             | [80, 128, 1, 1]      | -0.002885  | 0.078915  
+model.23.one2one_cv3.1.0.1.bn.weight               | [80]                 | 0.871991   | 0.555708  
+model.23.one2one_cv3.1.0.1.bn.bias                 | [80]                 | 0.128789   | 1.272458  
+model.23.one2one_cv3.1.0.1.bn.running_mean         | [80]                 | -0.491507  | 1.546242  
+model.23.one2one_cv3.1.0.1.bn.running_var          | [80]                 | 0.513608   | 0.607017  
+model.23.one2one_cv3.1.0.1.bn.num_batches_tracked  | []                   | 0.000000   | nan       
+model.23.one2one_cv3.1.1.0.conv.weight             | [80, 1, 3, 3]        | 0.007823   | 0.118286  
+model.23.one2one_cv3.1.1.0.bn.weight               | [80]                 | 0.824670   | 0.420477  
+model.23.one2one_cv3.1.1.0.bn.bias                 | [80]                 | 1.046902   | 0.950419  
+model.23.one2one_cv3.1.1.0.bn.running_mean         | [80]                 | 0.057240   | 0.241741  
+model.23.one2one_cv3.1.1.0.bn.running_var          | [80]                 | 0.049712   | 0.048999  
+model.23.one2one_cv3.1.1.0.bn.num_batches_tracked  | []                   | 0.000000   | nan       
+model.23.one2one_cv3.1.1.1.conv.weight             | [80, 80, 1, 1]       | -0.002900  | 0.082391  
+model.23.one2one_cv3.1.1.1.bn.weight               | [80]                 | 2.000378   | 1.678496  
+model.23.one2one_cv3.1.1.1.bn.bias                 | [80]                 | 1.193302   | 1.178572  
+model.23.one2one_cv3.1.1.1.bn.running_mean         | [80]                 | -0.170133  | 1.037184  
+model.23.one2one_cv3.1.1.1.bn.running_var          | [80]                 | 0.235195   | 0.172109  
+model.23.one2one_cv3.1.1.1.bn.num_batches_tracked  | []                   | 0.000000   | nan       
+model.23.one2one_cv3.1.2.weight                    | [80, 80, 1, 1]       | -0.029305  | 0.126322  
+model.23.one2one_cv3.1.2.bias                      | [80]                 | -10.878222 | 0.680343  
+model.23.one2one_cv3.2.0.0.conv.weight             | [256, 1, 3, 3]       | 0.010243   | 0.080020  
+model.23.one2one_cv3.2.0.0.bn.weight               | [256]                | 0.879186   | 0.362616  
+model.23.one2one_cv3.2.0.0.bn.bias                 | [256]                | 0.430856   | 0.734421  
+model.23.one2one_cv3.2.0.0.bn.running_mean         | [256]                | -0.021003  | 0.100789  
+model.23.one2one_cv3.2.0.0.bn.running_var          | [256]                | 0.022564   | 0.056459  
+model.23.one2one_cv3.2.0.0.bn.num_batches_tracked  | []                   | 0.000000   | nan       
+model.23.one2one_cv3.2.0.1.conv.weight             | [80, 256, 1, 1]      | -0.001647  | 0.055049  
+model.23.one2one_cv3.2.0.1.bn.weight               | [80]                 | 0.942287   | 0.316262  
+model.23.one2one_cv3.2.0.1.bn.bias                 | [80]                 | 0.262502   | 0.838496  
+model.23.one2one_cv3.2.0.1.bn.running_mean         | [80]                 | -0.131411  | 0.493491  
+model.23.one2one_cv3.2.0.1.bn.running_var          | [80]                 | 0.484015   | 0.462402  
+model.23.one2one_cv3.2.0.1.bn.num_batches_tracked  | []                   | 0.000000   | nan       
+model.23.one2one_cv3.2.1.0.conv.weight             | [80, 1, 3, 3]        | -0.001410  | 0.118361  
+model.23.one2one_cv3.2.1.0.bn.weight               | [80]                 | 1.010065   | 1.082863  
+model.23.one2one_cv3.2.1.0.bn.bias                 | [80]                 | 0.810015   | 0.661295  
+model.23.one2one_cv3.2.1.0.bn.running_mean         | [80]                 | 0.018561   | 0.196845  
+model.23.one2one_cv3.2.1.0.bn.running_var          | [80]                 | 0.057054   | 0.062942  
+model.23.one2one_cv3.2.1.0.bn.num_batches_tracked  | []                   | 0.000000   | nan       
+model.23.one2one_cv3.2.1.1.conv.weight             | [80, 80, 1, 1]       | -0.001873  | 0.076577  
+model.23.one2one_cv3.2.1.1.bn.weight               | [80]                 | 1.950903   | 1.393513  
+model.23.one2one_cv3.2.1.1.bn.bias                 | [80]                 | 1.109572   | 1.260710  
+model.23.one2one_cv3.2.1.1.bn.running_mean         | [80]                 | -0.070053  | 0.566488  
+model.23.one2one_cv3.2.1.1.bn.running_var          | [80]                 | 0.177586   | 0.194002  
+model.23.one2one_cv3.2.1.1.bn.num_batches_tracked  | []                   | 0.000000   | nan       
+model.23.one2one_cv3.2.2.weight                    | [80, 80, 1, 1]       | -0.022057  | 0.128905  
+model.23.one2one_cv3.2.2.bias                      | [80]                 | -9.638672  | 0.546747  
